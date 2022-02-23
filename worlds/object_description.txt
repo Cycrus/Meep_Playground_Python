@@ -1,0 +1,8 @@
+Object       R, G, B
+
+Empty        255, 255, 255
+Wall         50, 50, 50
+Food         130, 35, 76
+Blue Meep    0, 0, 255
+Red Meep     255, 0, 0
+Player       102, 0, 102
