@@ -20,3 +20,13 @@ If one controllable Meep is set, this one can be controlled with the keyboard.
 - a = turn left
 - c = carry a rock
 - f = attack and eat
+- q = Shout on frequency 3
+- e = Shout on frequency 4
+
+## Screenshots
+### Image of the existing testmap
+![Playground Map](screenshots/map_1.png)
+
+### Images of raycasting vision
+![Raycasting 1](screenshots/raycasting_1.png)
+![Raycasting 2](screenshots/raycasting_2.png)

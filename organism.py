@@ -117,8 +117,8 @@ class Organism(objects.Entity):
         self.prev_size = self.size
         
         if self.is_controlled:
-            self.eye = VectorEye(self.pos, self.direction, 60, 300, grid_size)
-            #self.eye = RayCastingEye(self.pos, self.direction, 60, 800, 200, grid_size)
+            #self.eye = VectorEye(self.pos, self.direction, 60, 300, grid_size)
+            self.eye = RayCastingEye(self.pos, self.direction, 60, 800, 200, grid_size)
         else:
             self.eye = VectorEye(self.pos, self.direction, 60, 300, grid_size)
             #self.eye = RayCastingEye(self.pos, self.direction, 60, 800, 200, grid_size)

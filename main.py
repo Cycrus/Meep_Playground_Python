@@ -49,7 +49,7 @@ import random
 # TODO Stamina sensation
 
 if __name__ == "__main__":
-    env = World(worldname="testworld1")#size=np.array([2000, 1200]))
+    env = World(worldname="testworld1")
     sim = EngineSimulator(env)
     
     sim.start_simulation()
