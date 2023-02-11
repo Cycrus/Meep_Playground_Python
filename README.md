@@ -1,7 +1,11 @@
 # Meep_Playground_Python
 
+## Reqirements and Startup
+You need a Python version of at least Python 3.6 and the packages installed as defined in the "requirements.txt" file.
+To start the program, you just run the main.py file in the root folder in python. Have fun playing around.
+
 ## Concept
-This is the first version of a reinforcement learning AI playground. Later versions have been ported to Unity and are written in C#.
+This is a version of a reinforcement learning AI playground and a sandbox for a curstom game engine. Later versions have been ported to Unity and are written in C#.
 A level can be created by painting a map where every pixel color means another object. An example and the meaning of colors can be found in the folder "worlds".
 A world contains different Meeps (lifeforms) currently moving randomly through the map. They are capable of moving, eating, replacing obstacles like rocks and attacking each other.
 The lose energy over time and with every action they perform. When the energy drops to 0 they die and become eadible meat.
@@ -11,6 +15,9 @@ Two types of vision are implemented:
 - A custom raycasting algorithm allowing for a simulated 3D environment.
 Meeps can be carnivore and eat other Meeps, herbivore and eat only fruits, or omnivore.
 The environment has a day-night cycle of a few minutes and there are fruit trees growing fruits after a time.
+
+The current player is a herbivore Meep. This can be changed in the "environment.py" file at the very bottom.
+The map file can be changed in the "main.py" file as the parameter for the World object constructor.
 
 ## Controls
 If one controllable Meep is set, this one can be controlled with the keyboard.

@@ -278,7 +278,6 @@ class Organism(objects.Entity):
                     if objects.PROP_SOLID in entity.properties  or objects.PROP_LIVING in entity.properties:
                         if vec.basic_collision(self.grabbed_entity.pos, self.grabbed_entity.size,
                                                entity.pos, entity.size):
-                            print(self.grabbed_entity.pos)
                             self.check_grabbed_stop(entity)
         
     def random_action(self):
@@ -316,7 +315,7 @@ class Organism(objects.Entity):
         
         if self.is_controlled:
             self.remote_control()
-        """
+        
         else:
             action, force = self.random_action()
             
@@ -328,7 +327,7 @@ class Organism(objects.Entity):
                 self.init_rotation(force)
             elif action == 3:
                 self.init_rotation(-force)
-        """
+        
             
         if self.init_eat:
             self.energy = self.energy - self.eat_energy_cost
