@@ -13,6 +13,7 @@ The Meeps are capable of sensing the direction of a touch, a simplified concept 
 Two types of vision are implemented:
 - A vector containing the rotation and distance of other objects.
 - A custom raycasting algorithm allowing for a simulated 3D environment.
+
 Meeps can be carnivore and eat other Meeps, herbivore and eat only fruits, or omnivore.
 The environment has a day-night cycle of a few minutes and there are fruit trees growing fruits after a time.
 
