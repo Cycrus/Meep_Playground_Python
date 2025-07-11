@@ -1,4 +1,13 @@
-# Meep_Playground_Python
+<div align="center">
+  <img src="screenshots/meep_playground_logo.png" alt="MiniMile VR Logo" width="250">
+  <h1>Meep Playground</h1>
+</div>
+
+<div align="center">
+  <img alt="OS" src=https://img.shields.io/badge/OS-Windows,Linux-yellow?style=flat-square>
+  <img alt="Platforms" src=https://img.shields.io/badge/Platforms-x86__64-blue?style=flat-square>
+  <img alt="Languages" src=https://img.shields.io/badge/Languages-Python-red?style=flat-square>
+</div>
 
 ## Reqirements and Startup
 You need a Python version of at least Python 3.6 and the packages installed as defined in the "requirements.txt" file.
